@@ -14,4 +14,13 @@ public class WelcomeController {
 		
 		return "Welcome";
 	}
+	
+	@GetMapping("/welcomes")
+	public String getMsgs()
+	{
+		
+		return "Welcome";
+	}
+	
+	
 }
